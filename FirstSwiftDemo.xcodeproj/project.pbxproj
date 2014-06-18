@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3A267021951347800804295 /* KLKvoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A267011951347800804295 /* KLKvoViewController.m */; };
+		C305E1CD19515E46008C6351 /* FirstSwiftPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C305E1CC19515E46008C6351 /* FirstSwiftPage.swift */; };
 		C3A863691949705100277807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A863681949705100277807 /* AppDelegate.swift */; };
 		C3A8636B1949705100277807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A8636A1949705100277807 /* ViewController.swift */; };
 		C3A8636E1949705100277807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A8636C1949705100277807 /* Main.storyboard */; };
@@ -26,8 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C3A267001951347800804295 /* KLKvoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLKvoViewController.h; sourceTree = "<group>"; };
-		C3A267011951347800804295 /* KLKvoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLKvoViewController.m; sourceTree = "<group>"; };
+		C305E1CC19515E46008C6351 /* FirstSwiftPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstSwiftPage.swift; sourceTree = "<group>"; };
 		C3A863631949705100277807 /* FirstSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A863671949705100277807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3A863681949705100277807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,11 +79,10 @@
 			children = (
 				C3A863681949705100277807 /* AppDelegate.swift */,
 				C3A8636A1949705100277807 /* ViewController.swift */,
+				C305E1CC19515E46008C6351 /* FirstSwiftPage.swift */,
 				C3A8636C1949705100277807 /* Main.storyboard */,
 				C3A8636F1949705200277807 /* Images.xcassets */,
 				C3A863661949705100277807 /* Supporting Files */,
-				C3A267001951347800804295 /* KLKvoViewController.h */,
-				C3A267011951347800804295 /* KLKvoViewController.m */,
 			);
 			path = FirstSwiftDemo;
 			sourceTree = "<group>";
@@ -214,7 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3A8636B1949705100277807 /* ViewController.swift in Sources */,
-				C3A267021951347800804295 /* KLKvoViewController.m in Sources */,
+				C305E1CD19515E46008C6351 /* FirstSwiftPage.swift in Sources */,
 				C3A863691949705100277807 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
