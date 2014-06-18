@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3A267021951347800804295 /* KLKvoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A267011951347800804295 /* KLKvoViewController.m */; };
 		C3A863691949705100277807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A863681949705100277807 /* AppDelegate.swift */; };
 		C3A8636B1949705100277807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A8636A1949705100277807 /* ViewController.swift */; };
 		C3A8636E1949705100277807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A8636C1949705100277807 /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3A267001951347800804295 /* KLKvoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLKvoViewController.h; sourceTree = "<group>"; };
+		C3A267011951347800804295 /* KLKvoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLKvoViewController.m; sourceTree = "<group>"; };
 		C3A863631949705100277807 /* FirstSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A863671949705100277807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3A863681949705100277807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 				C3A8636C1949705100277807 /* Main.storyboard */,
 				C3A8636F1949705200277807 /* Images.xcassets */,
 				C3A863661949705100277807 /* Supporting Files */,
+				C3A267001951347800804295 /* KLKvoViewController.h */,
+				C3A267011951347800804295 /* KLKvoViewController.m */,
 			);
 			path = FirstSwiftDemo;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3A8636B1949705100277807 /* ViewController.swift in Sources */,
+				C3A267021951347800804295 /* KLKvoViewController.m in Sources */,
 				C3A863691949705100277807 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +331,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = FirstSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +346,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = FirstSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -397,6 +411,7 @@
 				C3A863811949705200277807 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3A863821949705200277807 /* Build configuration list for PBXNativeTarget "FirstSwiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +420,7 @@
 				C3A863841949705200277807 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
